@@ -27,6 +27,22 @@ Setup and Usage
 4. Create [a configuration file](/docs/config.md) and store it somewhere, like `/etc/hooktor/config.json`
 5. Run `node hooktor.js /etc/hooktor/config.json`
 
+### Building static binaries
+
+If you want to deploy Hooktor on a server without the need for Node.js on the server, this app is set up to support [`pkg`](https://github.com/zeit/pkg). Do do so...
+
+1. Install Node.js as usual on your local machine.
+2. Checkout the sources and store them somewhere you are comfortable with.
+3. Run `npm i`.
+4. Run `./node_modules/.bin/pkg .`
+5. Find the binaries in the root folder, deploy those to your server, and be happy.
+
+### A note to Archlinux users
+
+Friends, as I am using Arch on all my servers, there is an [AUR package](https://aur.archlinux.org/packages/hooktor/) available. This package distributes the binary version, so Node.js is only required to build the package, not to run it.
+
+The package installs a minimal config to `/etc/hooktor.json`, which expects the project configuration files in `/var/lib/hooktor/projects`. It is also set up to listen on `[::1]:4042`, so you need to change that if you want to have Hooktor listen on a public address. In addition, a Systemd service is available, so you should be good to go after `systemctl {enable,start} hooktor`.
+
 Further documentation
 ---------------------
 
