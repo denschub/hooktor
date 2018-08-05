@@ -1,0 +1,13 @@
+{
+  "enabledServices": [
+    "github",
+    "travis"
+  ],
+  "projectConfigRoot": "/etc/hooktor/projects",
+  "server": {
+    "listen": {
+      "address": "::1",
+      "port": 8080
+    }
+  }
+}

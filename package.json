@@ -1,0 +1,22 @@
+{
+  "name": "Hooktor",
+  "version": "0.1.0",
+  "description": "Little application that listens for webhooks and runs scripts to handle them",
+  "license": "MIT",
+  "author": "Dennis Schubert <mail@dennis-schubert.de>",
+  "homepage": "https://github.com/denschub/hooktor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denschub/hooktor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/denschub/hooktor/issues"
+  },
+  "main": "hooktor.js",
+  "scripts": {
+    "start": "node hooktor.js"
+  },
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}

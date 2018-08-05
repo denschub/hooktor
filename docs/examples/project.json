@@ -1,0 +1,22 @@
+{
+  "codestyle": {
+    "service": "github",
+
+    "secret": "supersecretsecret",
+    "events": {
+      "push": "/home/stylebot/check_push.sh",
+      "pull_request": "/home/stylebot/check_pr.sh"
+    }
+  },
+
+  "ci": {
+    "service": "travis",
+
+    "apiRoot": "https://api.travis-ci.com",
+    "states": {
+      "passed": "/home/deploybot/destroy_the_world.sh",
+      "failed": "/home/deploybot/wakeup.sh",
+      "error": "/home/deploybot/wakeup.sh"
+    }
+  }
+}
