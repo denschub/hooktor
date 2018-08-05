@@ -1,5 +1,5 @@
 {
-  "name": "Hooktor",
+  "name": "hooktor",
   "version": "0.1.0",
   "description": "Little application that listens for webhooks and runs scripts to handle them",
   "license": "MIT",
@@ -13,10 +13,17 @@
     "url": "https://github.com/denschub/hooktor/issues"
   },
   "main": "hooktor.js",
+  "bin": "hooktor.js",
   "scripts": {
     "start": "node hooktor.js"
   },
+  "pkg": {
+    "scripts": "lib/services/*.js"
+  },
   "dependencies": {
     "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.3"
   }
 }
