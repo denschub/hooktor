@@ -1,6 +1,6 @@
 {
   "name": "hooktor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Little application that listens for webhooks and runs scripts to handle them",
   "license": "MIT",
   "author": "Dennis Schubert <mail@dennis-schubert.de>",
