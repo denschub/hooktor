@@ -1,6 +1,7 @@
 {
   "enabledServices": [
     "github",
+    "gitlab",
     "travis"
   ],
   "projectConfigRoot": "/etc/hooktor/projects",

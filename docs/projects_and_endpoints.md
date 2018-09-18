@@ -29,6 +29,7 @@ Available Services
 ------------------
 
 * [`github`](/docs/services/github.md)
+* [`gitlab`](/docs/services/gitlab.md)
 * [`travis`](/docs/services/travis.md)
 
 Example
