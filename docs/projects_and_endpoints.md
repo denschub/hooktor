@@ -28,6 +28,7 @@ Each endpoint has one generic parameter, `service`. This parameter defines what 
 Available Services
 ------------------
 
+* [`generic`](/docs/services/generic.md)
 * [`github`](/docs/services/github.md)
 * [`gitlab`](/docs/services/gitlab.md)
 * [`travis`](/docs/services/travis.md)

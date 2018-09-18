@@ -1,5 +1,6 @@
 {
   "enabledServices": [
+    "generic",
     "github",
     "gitlab",
     "travis"
