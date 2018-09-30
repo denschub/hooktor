@@ -10,7 +10,7 @@ Config
 ------
 
 * `service`, required, has to be `github`.
-* `secret`, optional (but recommended), a shared secret between GitHub and the hook receiver.
+* `secret`, optional (but recommended), a shared secret between GitHub and the hook receiver. Can be one single secret (as a string) or multiple secrets (as an array of string).
 * `events`, required, an object mapping each event to a thing to run. See [GitHubs documentation](https://developer.github.com/webhooks/#events) for a list of all avialable events.
 
 `STDIN`

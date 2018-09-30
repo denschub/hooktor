@@ -7,6 +7,7 @@ Config
 ------
 
 * `service`, required, has to be `generic`.
+* `secret`, optional, the shared secret token passed via the `X-Hook-Token` header. Can be one single secret (as a string) or multiple secrets (as an array of string).
 * `run`, required, the command/script to execute.
 
 `STDIN`
@@ -21,6 +22,8 @@ Example
 {
   "example": {
     "service": "generic",
+
+    "secret": "supersecretsecret",
     "run": "/home/automation/close_window_if_rainy.sh"
   }
 }

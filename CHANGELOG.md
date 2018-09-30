@@ -1,3 +1,9 @@
+# 0.3.0
+
+## Features
+* Allow using more than one secret for services with static secrets.
+* `generic` hooks can now use a shared secret token, passed via the `X-Hook-Token` header.
+
 # 0.2.0
 
 ## Features

@@ -10,7 +10,7 @@ Config
 ------
 
 * `service`, required, has to be `gitlab`.
-* `secret`, optional (but recommended), the shared secret token between GitLab and the hook receiver.
+* `secret`, optional (but recommended), the shared secret token between GitLab and the hook receiver. Can be one single secret (as a string) or multiple secrets (as an array of string).
 * `events`, required, an object mapping each event to a thing to run. See [GitLabs documentation](https://gitlab.com/help/user/project/integrations/webhooks) for a list of all avialable events.
 
 `STDIN`
