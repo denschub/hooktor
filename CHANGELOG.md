@@ -1,5 +1,8 @@
 # 0.3.0-dev
 
+## Features
+* Allow using more than one secret for services with static secrets.
+
 # 0.2.0
 
 ## Features
