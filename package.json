@@ -21,9 +21,9 @@
     "scripts": "lib/services/*.js"
   },
   "dependencies": {
-    "request": "^2.87.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "pkg": "^4.3.3"
+    "pkg": "^4.4.0"
   }
 }
