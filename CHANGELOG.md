@@ -1,5 +1,9 @@
 # 0.4.0-dev
 
+# 0.3.1
+
+This release only bumps dependencies.
+
 # 0.3.0
 
 ## Features
