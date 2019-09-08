@@ -1,6 +1,6 @@
 {
   "name": "hooktor",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Little application that listens for webhooks and runs scripts to handle them",
   "license": "MIT",
   "author": "Dennis Schubert <mail@dennis-schubert.de>",
@@ -21,9 +21,9 @@
     "scripts": "lib/services/*.js"
   },
   "dependencies": {
-    "request": "^2.87.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "pkg": "^4.3.3"
+    "pkg": "^4.4.0"
   }
 }
